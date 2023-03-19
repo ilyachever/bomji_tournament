@@ -1,0 +1,1 @@
+const popup=()=>{const e=document.querySelector(".popup"),o=e.querySelector(".popup__button"),p=()=>{e.classList.contains("popup--visible")&&(e.classList.remove("popup--visible"),o.removeEventListener("click",p))},s=()=>{e.classList.add("popup--visible"),o.addEventListener("click",p)};var t;t=1e4,window.onload=function(){setTimeout(s,t)}};popup();
